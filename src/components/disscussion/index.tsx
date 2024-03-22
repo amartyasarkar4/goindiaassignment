@@ -65,7 +65,7 @@ const MainPage = (props: {
           <DisscussionMain allDisscussions={props.disscussData} />
         </div>
 
-        <div className="w-full lg:hidden px-5 py-5 mb-8">
+        <div className="w-full lg:hidden px-1 sm:px-5 py-0 sm:py-5 mb-8">
           <div
             className="flex inline lg:hidden w-full  bg-sky-900 py-1"
             style={{

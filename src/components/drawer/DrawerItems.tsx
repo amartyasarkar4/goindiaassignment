@@ -5,8 +5,8 @@ const DrawerItems = () => {
   return (
     <div className="mt-4 px-2 py-2">
       <nav className="flex flex-col gap-4">
-        <div className="flex justify-between items-center">
-          <div className="flex gap-2">
+        <div className="flex justify-between items-center text-sm items-center">
+          <div className="flex gap-2 text-sm">
             <Image
               src="/disscuss1.svg"
               alt="disscuss"
@@ -17,7 +17,7 @@ const DrawerItems = () => {
                 height: "25px",
               }}
             />
-            <p>Disscussion Forum</p>
+            <p className="text-sm">Disscussion Forum</p>
           </div>
           <Image
             src="/down.svg"
@@ -30,7 +30,7 @@ const DrawerItems = () => {
             }}
           />
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 text-sm items-center">
           <Image
             src="/Piggybank.svg"
             alt="disscuss"
@@ -43,7 +43,7 @@ const DrawerItems = () => {
           />
           <p>Market Stories</p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 text-sm items-center">
           <Image
             src="/careemoji.svg"
             alt="disscuss"
@@ -57,7 +57,7 @@ const DrawerItems = () => {
           <p>Sentiment</p>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 text-sm items-center">
           <Image
             src="/Market.svg"
             alt="disscuss"
@@ -70,7 +70,7 @@ const DrawerItems = () => {
           />
           <p>Market</p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 text-sm items-center">
           <Image
             src="/sector.svg"
             alt="disscuss"
@@ -84,7 +84,7 @@ const DrawerItems = () => {
           <p>Sector</p>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 text-sm items-center">
           <Image
             src="/Watchlist.svg"
             alt="disscuss"
@@ -97,7 +97,7 @@ const DrawerItems = () => {
           />
           <p>Watchlist</p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 text-sm items-center">
           <Image
             src="/Events.svg"
             alt="disscuss"
@@ -111,7 +111,7 @@ const DrawerItems = () => {
           <p>Events</p>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 text-sm items-center">
           <Image
             src="/Newspaper.svg"
             alt="disscuss"

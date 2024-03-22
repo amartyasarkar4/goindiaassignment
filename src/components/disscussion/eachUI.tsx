@@ -21,7 +21,7 @@ const EachUI = (props: { snglDiss: DisscussionSingleProp }) => {
     }
   };
   return (
-    <div className="shadow-xl mb-12 px-5 py-3 relative bg-slate-50">
+    <div className="shadow-xl mb-12 px-2 sm:px-5 py-3 relative bg-slate-50">
       <div className="bg-slate-50 flex mt-2 relative">
         <div className="w-1/5 sm:w-2/12 md:w-1/12 mt-1">
           <Image
