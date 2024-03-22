@@ -21,7 +21,7 @@ export const disscussionData: DisscussionSingleProp[] = [
     likes: "2k+",
     view: "3k+",
     comments: "105",
-    time: new Date(new Date().getTime() - 48 * 1000),
+    time: new Date(new Date().getTime() - 9 * 60 * 1000),
   },
   {
     author: "Ketika Jain",

@@ -8,9 +8,9 @@ const DisscussionMain = (props: {
 }) => {
   const pagetitle = "Disscussion Forum";
 
-  React.useEffect(() => {
-    console.log("gjhjs", props.allDisscussions);
-  }, [props.allDisscussions]);
+  // React.useEffect(() => {
+  //   console.log("gjhjs", props.allDisscussions);
+  // }, [props.allDisscussions]);
   return (
     <div>
       <h2
