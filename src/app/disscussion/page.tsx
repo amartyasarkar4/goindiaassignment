@@ -1,9 +1,13 @@
 import { loadDisscussionData, loadMarketStoriesData } from "@/api";
 import MainPage from "@/components/disscussion";
-import Image from "next/image";
+
+import { DisscussionSingleProp } from "@/types/loadtype";
+import React from "react";
 
 async function getDiscussions() {
   const res = await loadDisscussionData();
+
+  // console.log("rdrdrdrd", res);
 
   return res;
 }
@@ -14,10 +18,12 @@ async function getMarketStories() {
   return res;
 }
 
-export default async function Home() {
+const DisscussionPage = async () => {
   const data = await getDiscussions();
 
   const marketdata = await getMarketStories();
+
+  // console.log("ggg", data);
 
   return (
     <div
@@ -29,4 +35,6 @@ export default async function Home() {
       <MainPage disscussData={data} marketStoriesData={marketdata} />
     </div>
   );
-}
+};
+
+export default DisscussionPage;
