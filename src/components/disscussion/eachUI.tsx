@@ -21,7 +21,7 @@ const EachUI = (props: { snglDiss: DisscussionSingleProp }) => {
     }
   };
   return (
-    <div className="shadow-xl mb-12 px-5 py-3 relative">
+    <div className="shadow-xl mb-12 px-5 py-3 relative bg-slate-50">
       <div className="bg-slate-50 flex mt-2 relative">
         <div className="w-1/5 sm:w-2/12 md:w-1/12 mt-1">
           <Image
@@ -37,11 +37,11 @@ const EachUI = (props: { snglDiss: DisscussionSingleProp }) => {
         </div>
         <div className="w-4/5  ml-1 mt-2">
           <div className="flex mb-2 justify-between sm:justify-start w-full items-center">
-            <div className="text-sm md:text-md font-semibold mr-8 min-w-12 sm:min-w-24">
-              <h2>{props.snglDiss.author}</h2>
+            <div className="text-sm md:text-md font-semibold mr-1 min-w-12 sm:min-w-24">
+              <h2 className="text-xs">{props.snglDiss.author}</h2>
             </div>
             <div className="bg-sky-700 px-4 text-slate-50 rounded-3xl text-xs py-1">
-              <h4>{props.snglDiss.sector}</h4>
+              <h4 className="text-xs">{props.snglDiss.sector}</h4>
             </div>
           </div>
           <p className="text-xs">{props.snglDiss.desc}</p>

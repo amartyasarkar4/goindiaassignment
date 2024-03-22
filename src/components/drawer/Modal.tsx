@@ -12,7 +12,7 @@ const Modal = (props: { closeModal: any; fordesktop: Boolean }) => {
         position: props.fordesktop ? "static" : "fixed",
         top: 0,
         left: 0,
-        width: "280px",
+        width: "240px",
         height: "100%",
       }}
     >
@@ -23,7 +23,7 @@ const Modal = (props: { closeModal: any; fordesktop: Boolean }) => {
           position: "fixed",
           zIndex: 399,
           //   rotate: "90deg",
-          left: "280px",
+          left: "240px",
           top: "30%",
           height: "120px",
           // width: "22px",

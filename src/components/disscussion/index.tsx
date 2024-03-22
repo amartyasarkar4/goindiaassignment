@@ -83,7 +83,7 @@ const MainPage = (props: {
               }
               onClick={() => seTactiveDisscuss(true)}
             >
-              <h4 className="text-slate-50 text-md font-semibold">
+              <h4 className="text-slate-50 text-xs sm:text-lg font-semibold">
                 Disscussion Forum
               </h4>
             </div>
@@ -95,7 +95,7 @@ const MainPage = (props: {
               }
               onClick={() => seTactiveDisscuss(false)}
             >
-              <h4 className="text-slate-50 text-md font-semibold">
+              <h4 className="text-slate-50 text-xs sm:text-lg font-semibold">
                 Market Stories
               </h4>
             </div>

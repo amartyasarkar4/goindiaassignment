@@ -6,7 +6,7 @@ const MarketStories = (props: { allStories: MarketStorySingleProp[] }) => {
   const pagetitle = "Market Stories";
   return (
     <div
-      className="pl-4 pb-8 mt-4"
+      className="pl-4 pb-8 mt-4 "
       style={{
         height: "96vh",
         overflowY: "scroll",
@@ -16,7 +16,7 @@ const MarketStories = (props: { allStories: MarketStorySingleProp[] }) => {
       }}
     >
       <h2
-        className="text-xl text-red-500 font-semibold ml-4 bg-slate-50 pb-2"
+        className="text-xl text-red-500 font-semibold ml-4 bg-slate-50 pb-2 hidden sm:block"
         style={{
           position: "sticky",
 
